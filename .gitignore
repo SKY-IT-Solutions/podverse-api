@@ -1,32 +1,39 @@
-.git
-
-/src/config/bitpay/api.key
-/src/config/google/jwt.keys.json
-/src/config/parser/addFeedUrlsFile.json
-
-/image_storage
-
-# API keys and secrets
+.git
+
+/src/config/bitpay/api.key
+/src/config/google/jwt.keys.json
+/src/config/parser/addFeedUrlsFile.json
+
+/image_storage
+
+# API keys and secrets
+.env-new
+.env-old
+.env-old-removing
+
+# Dependency directory
+node_modules
+bower_components
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# Logging files
+*.log
+
+temp
+
+package-lock.json
+config.bat
 .env
-
-# Dependency directory
-node_modules
-bower_components
-
-# Editors
-.idea
-*.iml
-
-# OS metadata
-.DS_Store
-Thumbs.db
-
-# Ignore built ts files
-dist/**/*
-
-# Logging files
-*.log
-
-temp
-
-package-lock.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
